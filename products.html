@@ -33,7 +33,7 @@
     <main>
         <div class="my-container d-md-flex">
             <div class="my-sidebar">
-                <div class="d-none d-md-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: calc(230px + 3vw); height: 100vh;">
+                <div class="d-none d-md-flex flex-column flex-shrink-0 p-3 text-bg-dark h-100" style="width: calc(230px + 3vw)">
                     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                       <svg class="bi pe-none me-2" width="10" height="32"><use xlink:href="#bootstrap"></use></svg>
                       <span class="fs-5">Bootstrap Dashboard</span>
@@ -91,8 +91,286 @@
                     </div>
                   </div>
             </div>
-            <div class="col-right bg-primary w-100">
-                
+            <div class="col-right w-100">
+                <div class="products-title d-flex justify-content-between align-items-center p-3">
+                    <h2>10 prodotti trovati</h2>
+                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="btn-group me-2" role="group" aria-label="First group">
+                          <button type="button" class="btn border-black">Esporta</button>
+                          <button type="button" class="btn border-black">Nuovo</button>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-0 mx-3 opacity-50">
+                <div class="products-container">
+                    <div class="row ps-0 pt-4 pb-3 fw-bold fs-5">
+                        <div class="col-10 col-sm-8 col-md-6 ps-4">Nome</div>
+                        <div class="d-none d-sm-flex col-2 justify-content-center">Prezzo</div>
+                        <div class="d-none d-md-flex col-2 justify-content-center">Stato</div>
+                        <div class="col-2 text-center">Azioni</div>
+                    </div>
+                    <hr class="my-0 mx-3 opacity-50">
+                    <div class="row ps-0 py-3 fs-5">
+                        <div class="col-10 col-sm-8 col-md-6 ps-4 d-flex">
+                            <div class="img-container flex-shrink-0" style="width: 70px; height: 70px;">
+                                <img src="./assets/assets/img.jpg" class="w-100 h-100 object-fit-cover" alt="cell">
+                            </div>
+                            <div class="my-text-info ps-3 pe-4">
+                                <p class="m-0 fs-5">Smartphone Samsung Galaxy S21</p>
+                                <p class="d-none d-xl-flex text-secondary fs-6 m-0">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata</p>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-flex col-2 text-center align-items-center justify-content-center">799.00 &euro;</div>
+                        <div class="d-none d-md-flex col-2 text-center align-items-center justify-content-center">
+                            <div class="border border-success rounded-circle" style="width: 35px; height: 35px;">
+                                <i class="fas fa-check text-success"></i>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-primary m-1">
+                                <i class="fas fa-pencil"></i>
+                            </button>
+                            <button type="button" class="btn btn-outline-danger m-1">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <hr class="my-0 mx-3 opacity-50">
+                    <div class="row ps-0 py-3 fs-5">
+                        <div class="col-10 col-sm-8 col-md-6 ps-4 d-flex">
+                            <div class="img-container flex-shrink-0" style="width: 70px; height: 70px;">
+                                <img src="./assets/assets/img.jpg" class="w-100 h-100 object-fit-cover" alt="cell">
+                            </div>
+                            <div class="my-text-info ps-3 pe-4">
+                                <p class="m-0 fs-5">Smartphone Samsung Galaxy S21</p>
+                                <p class="d-none d-xl-flex text-secondary fs-6 m-0">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata</p>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-flex col-2 text-center align-items-center justify-content-center">799.00 &euro;</div>
+                        <div class="d-none d-md-flex col-2 text-center align-items-center justify-content-center">
+                            <div class="border border-success rounded-circle" style="width: 35px; height: 35px;">
+                                <i class="fas fa-check text-success"></i>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-primary m-1">
+                                <i class="fas fa-pencil"></i>
+                            </button>
+                            <button type="button" class="btn btn-outline-danger m-1">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <hr class="my-0 mx-3 opacity-50">
+                    <div class="row ps-0 py-3 fs-5">
+                        <div class="col-10 col-sm-8 col-md-6 ps-4 d-flex">
+                            <div class="img-container flex-shrink-0" style="width: 70px; height: 70px;">
+                                <img src="./assets/assets/img.jpg" class="w-100 h-100 object-fit-cover" alt="cell">
+                            </div>
+                            <div class="my-text-info ps-3 pe-4">
+                                <p class="m-0 fs-5">Smartphone Samsung Galaxy S21</p>
+                                <p class="d-none d-xl-flex text-secondary fs-6 m-0">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata</p>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-flex col-2 text-center align-items-center justify-content-center">799.00 &euro;</div>
+                        <div class="d-none d-md-flex col-2 text-center align-items-center justify-content-center">
+                            <div class="border border-success rounded-circle" style="width: 35px; height: 35px;">
+                                <i class="fas fa-check text-success"></i>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-primary m-1">
+                                <i class="fas fa-pencil"></i>
+                            </button>
+                            <button type="button" class="btn btn-outline-danger m-1">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <hr class="my-0 mx-3 opacity-50">
+                    <div class="row ps-0 py-3 fs-5">
+                        <div class="col-10 col-sm-8 col-md-6 ps-4 d-flex">
+                            <div class="img-container flex-shrink-0" style="width: 70px; height: 70px;">
+                                <img src="./assets/assets/img.jpg" class="w-100 h-100 object-fit-cover" alt="cell">
+                            </div>
+                            <div class="my-text-info ps-3 pe-4">
+                                <p class="m-0 fs-5">Smartphone Samsung Galaxy S21</p>
+                                <p class="d-none d-xl-flex text-secondary fs-6 m-0">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata</p>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-flex col-2 text-center align-items-center justify-content-center">799.00 &euro;</div>
+                        <div class="d-none d-md-flex col-2 text-center align-items-center justify-content-center">
+                            <div class="border border-success rounded-circle" style="width: 35px; height: 35px;">
+                                <i class="fas fa-check text-success"></i>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-primary m-1">
+                                <i class="fas fa-pencil"></i>
+                            </button>
+                            <button type="button" class="btn btn-outline-danger m-1">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <hr class="my-0 mx-3 opacity-50">
+                    <div class="row ps-0 py-3 fs-5">
+                        <div class="col-10 col-sm-8 col-md-6 ps-4 d-flex">
+                            <div class="img-container flex-shrink-0" style="width: 70px; height: 70px;">
+                                <img src="./assets/assets/img.jpg" class="w-100 h-100 object-fit-cover" alt="cell">
+                            </div>
+                            <div class="my-text-info ps-3 pe-4">
+                                <p class="m-0 fs-5">Smartphone Samsung Galaxy S21</p>
+                                <p class="d-none d-xl-flex text-secondary fs-6 m-0">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata</p>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-flex col-2 text-center align-items-center justify-content-center">799.00 &euro;</div>
+                        <div class="d-none d-md-flex col-2 text-center align-items-center justify-content-center">
+                            <div class="border border-success rounded-circle" style="width: 35px; height: 35px;">
+                                <i class="fas fa-check text-success"></i>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-primary m-1">
+                                <i class="fas fa-pencil"></i>
+                            </button>
+                            <button type="button" class="btn btn-outline-danger m-1">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <hr class="my-0 mx-3 opacity-50">
+                    <div class="row ps-0 py-3 fs-5">
+                        <div class="col-10 col-sm-8 col-md-6 ps-4 d-flex">
+                            <div class="img-container flex-shrink-0" style="width: 70px; height: 70px;">
+                                <img src="./assets/assets/img.jpg" class="w-100 h-100 object-fit-cover" alt="cell">
+                            </div>
+                            <div class="my-text-info ps-3 pe-4">
+                                <p class="m-0 fs-5">Smartphone Samsung Galaxy S21</p>
+                                <p class="d-none d-xl-flex text-secondary fs-6 m-0">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata</p>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-flex col-2 text-center align-items-center justify-content-center">799.00 &euro;</div>
+                        <div class="d-none d-md-flex col-2 text-center align-items-center justify-content-center">
+                            <div class="border border-success rounded-circle" style="width: 35px; height: 35px;">
+                                <i class="fas fa-check text-success"></i>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-primary m-1">
+                                <i class="fas fa-pencil"></i>
+                            </button>
+                            <button type="button" class="btn btn-outline-danger m-1">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <hr class="my-0 mx-3 opacity-50">
+                    <div class="row ps-0 py-3 fs-5">
+                        <div class="col-10 col-sm-8 col-md-6 ps-4 d-flex">
+                            <div class="img-container flex-shrink-0" style="width: 70px; height: 70px;">
+                                <img src="./assets/assets/img.jpg" class="w-100 h-100 object-fit-cover" alt="cell">
+                            </div>
+                            <div class="my-text-info ps-3 pe-4">
+                                <p class="m-0 fs-5">Smartphone Samsung Galaxy S21</p>
+                                <p class="d-none d-xl-flex text-secondary fs-6 m-0">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata</p>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-flex col-2 text-center align-items-center justify-content-center">799.00 &euro;</div>
+                        <div class="d-none d-md-flex col-2 text-center align-items-center justify-content-center">
+                            <div class="border border-danger rounded-circle" style="width: 35px; height: 35px;">
+                                <i class="fas fa-x text-danger"></i>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-primary m-1">
+                                <i class="fas fa-pencil"></i>
+                            </button>
+                            <button type="button" class="btn btn-outline-danger m-1">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <hr class="my-0 mx-3 opacity-50">
+                    <div class="row ps-0 py-3 fs-5">
+                        <div class="col-10 col-sm-8 col-md-6 ps-4 d-flex">
+                            <div class="img-container flex-shrink-0" style="width: 70px; height: 70px;">
+                                <img src="./assets/assets/img.jpg" class="w-100 h-100 object-fit-cover" alt="cell">
+                            </div>
+                            <div class="my-text-info ps-3 pe-4">
+                                <p class="m-0 fs-5">Smartphone Samsung Galaxy S21</p>
+                                <p class="d-none d-xl-flex text-secondary fs-6 m-0">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata</p>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-flex col-2 text-center align-items-center justify-content-center">799.00 &euro;</div>
+                        <div class="d-none d-md-flex col-2 text-center align-items-center justify-content-center">
+                            <div class="border border-success rounded-circle" style="width: 35px; height: 35px;">
+                                <i class="fas fa-check text-success"></i>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-primary m-1">
+                                <i class="fas fa-pencil"></i>
+                            </button>
+                            <button type="button" class="btn btn-outline-danger m-1">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <hr class="my-0 mx-3 opacity-50">
+                    <div class="row ps-0 py-3 fs-5">
+                        <div class="col-10 col-sm-8 col-md-6 ps-4 d-flex">
+                            <div class="img-container flex-shrink-0" style="width: 70px; height: 70px;">
+                                <img src="./assets/assets/img.jpg" class="w-100 h-100 object-fit-cover" alt="cell">
+                            </div>
+                            <div class="my-text-info ps-3 pe-4">
+                                <p class="m-0 fs-5">Smartphone Samsung Galaxy S21</p>
+                                <p class="d-none d-xl-flex text-secondary fs-6 m-0">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata</p>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-flex col-2 text-center align-items-center justify-content-center">799.00 &euro;</div>
+                        <div class="d-none d-md-flex col-2 text-center align-items-center justify-content-center">
+                            <div class="border border-success rounded-circle" style="width: 35px; height: 35px;">
+                                <i class="fas fa-check text-success"></i>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-primary m-1">
+                                <i class="fas fa-pencil"></i>
+                            </button>
+                            <button type="button" class="btn btn-outline-danger m-1">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <hr class="my-0 mx-3 opacity-50">
+                    <div class="row ps-0 py-3 fs-5">
+                        <div class="col-10 col-sm-8 col-md-6 ps-4 d-flex">
+                            <div class="img-container flex-shrink-0" style="width: 70px; height: 70px;">
+                                <img src="./assets/assets/img.jpg" class="w-100 h-100 object-fit-cover" alt="cell">
+                            </div>
+                            <div class="my-text-info ps-3 pe-4">
+                                <p class="m-0 fs-5">Smartphone Samsung Galaxy S21</p>
+                                <p class="d-none d-xl-flex text-secondary fs-6 m-0">Display AMOLED, Fotocamera Ultra Wide, Batteria a lunga durata</p>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-flex col-2 text-center align-items-center justify-content-center">799.00 &euro;</div>
+                        <div class="d-none d-md-flex col-2 text-center align-items-center justify-content-center">
+                            <div class="border border-danger rounded-circle" style="width: 35px; height: 35px;">
+                                <i class="fas fa-x text-danger"></i>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-primary m-1">
+                                <i class="fas fa-pencil"></i>
+                            </button>
+                            <button type="button" class="btn btn-outline-danger m-1">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <hr class="my-0 mx-3 opacity-50">
+                </div>
             </div>
         </div>
     </main>
